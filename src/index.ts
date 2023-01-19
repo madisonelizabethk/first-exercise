@@ -27,22 +27,22 @@ console.log(mergedArray);
 
 // Wordle
 // Implement a function to check if the attempted word is correct or not
-// function checkWord(attemptWord: string, secretWord: string) {
-//   // Function should return a string
-//   // assign to the secret word variable
-//   secretWord = 'spoke';
-//   // assign to the attempted word variable
-//   attemptWord = 'scope';
+function checkWord(attemptWord: string, secretWord: string) {
+  // Function should return a string
+  // assign to the secret word variable
+  secretWord = 'spoke';
+  // assign to the attempted word variable
+  attemptWord = 'scope';
 
-//   // Iterate over the secret word
-//   for (let i = 0; i < secretWord.length; i += 1) {
-//     const secretLetter = secretWord[i];
+  // Iterate over the secret word
+  for (let i = 0; i < secretWord.length; i += 1) {
+    const secretLetter = secretWord[i];
 
-//     if (secretLetter.includes('S')) {
-//       console.log();
-//     }
-//   }
-// }
+    if (secretLetter.includes('S')) {
+      console.log();
+    }
+  }
+}
 
 // Call the function
 // for (const word of attempts) {
