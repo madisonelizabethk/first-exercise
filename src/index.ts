@@ -35,7 +35,7 @@ function checkWord(attemptWord: string, secretWord: string) {
     const secretLetter = secretWord[i];
     const attemptLetter = attemptWord[i];
 
-    if (secretLetter.includes('S')) {
+    if (secretLetter === attemptLetter) {
       console.log();
     }
   }
