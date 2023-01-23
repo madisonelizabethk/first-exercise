@@ -1,3 +1,10 @@
+/*
+ *  index.ts
+ *  Project: Array Exercise
+ *
+ *  Author: Madison Kennedy
+ *  Created on: Jan 19, 2023
+ */
 // Part 1
 const array1: Array<number> = [18, 74, 88, 3];
 const array2: Array<number> = [4, 5, 23, 18, 9, -5, 31];
